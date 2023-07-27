@@ -1,0 +1,114 @@
+BODY
+{
+    COLOR: black;
+    FONT-FAMILY: Arial
+}
+A
+{
+}
+.DAYNAMES
+{
+    BORDER-RIGHT: black thin solid;
+    BORDER-TOP: black thin solid;
+    BORDER-LEFT: black thin solid;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    HEIGHT: 10%;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+.MONTHNAMES
+{
+    FONT-WEIGHT: bolder;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.MONTHNAMESBOLD
+{
+    FONT-WEIGHT: bolder;
+    COLOR: blue;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+TABLE.BASETABLE
+{
+    WIDTH: 100%;
+    HEIGHT: 85%
+}
+.DAYCELLS
+{
+    BORDER-RIGHT: silver thin solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: silver thin solid;
+    FONT-WEIGHT: bolder;
+    BORDER-LEFT: black thin;
+    WIDTH: 14%;
+    COLOR: black;
+    BORDER-BOTTOM: black thin;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: white
+}
+.FILLCELLS
+{
+    BORDER-RIGHT: gray thin solid;
+    BORDER-TOP: gray thin solid;
+    BACKGROUND-COLOR: silver
+}
+TABLE.MONTHS
+{
+    WIDTH: 100%
+}
+.DAYNUMBER
+{
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    TEXT-ALIGN: left
+}
+.INNERTEXT
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: xx-small;
+    Z-INDEX: 5;
+    WIDTH: 100%;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    POSITION: absolute;
+    BACKGROUND-COLOR: green;
+    TEXT-ALIGN: right
+}
+.ERROR
+{
+    FONT-WEIGHT: bolder;
+    COLOR: red;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.EVENT
+{
+    BORDER-RIGHT: black 1pt solid;
+    BORDER-TOP: black 1pt solid;
+    FONT-SIZE: 7pt;
+    Z-INDEX: 10;
+    BORDER-LEFT: black 1pt solid;
+    COLOR: black;
+    BORDER-BOTTOM: black 1pt solid;
+    FONT-FAMILY: Arial;
+    POSITION: absolute;
+    TEXT-ALIGN: center
+}
+.TABLEHEADING
+{
+    FONT-WEIGHT: bolder;
+    FONT-FAMILY: Arial;
+    TEXT-ALIGN: right
+}
+.WATERMARK
+{
+    FONT-SIZE: 72pt;
+    Z-INDEX: -10;
+    COLOR: lightgoldenrodyellow;
+    FONT-FAMILY: Arial;
+    POSITION: absolute;
+    BACKGROUND-COLOR: transparent
+}

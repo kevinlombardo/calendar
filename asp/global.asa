@@ -1,0 +1,22 @@
+<!--==Visual InterDev Generated - startspan==-->
+<!--METADATA TYPE="TypeLib" NAME="Microsoft Internet Controls" UUID="{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}" VERSION="1.1"-->
+<!--==Visual InterDev Generated - endspan==-->
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+
+'Sub Session_OnStart
+'**Put your code here **
+'End Sub
+
+'EventName              Description
+'Session_OnStart        Runs the first time a user runs any page in your application
+'Session_OnEnd          Runs when a user's session times out or quits your application
+
+Sub Application_OnStart
+	Application("DSN") = "Driver={SQL Server};Server=spider;Uid=webuser;Pwd=++webuser"
+End Sub
+
+'Application_OnEnd      Runs once when the web server shuts down
+
+</SCRIPT>
+
+   
